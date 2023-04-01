@@ -1,0 +1,35 @@
+body{
+    background-color: antiquewhite;
+    font-family: Georgia, serif;
+}
+
+.cell:hover{
+    opacity: 0.4;
+}
+
+.cell{
+    z-index: 0;
+}
+
+.words{
+    margin-left:5%; 
+    margin-top:10%;
+    margin-right: 30%;
+    font-size:16px;
+    color: rgb(38, 24, 6);
+    z-index: -2;
+}
+.words p{
+    z-index: -2;
+}
+
+.gifs img{
+    top: 0;
+    z-index: 2;
+    position: absolute;
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
